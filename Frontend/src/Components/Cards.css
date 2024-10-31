@@ -1,0 +1,78 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.cardContainer {
+  width: 27%;
+  background-color: #cbcbcb;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.name {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 35px;
+}
+
+.interestsTitle {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.interests {
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.linkButton {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.linkButton:hover {
+  background-color: #45a049;
+}
+
+.deleteUpdate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.deleteButton {
+  padding: 10px 20px;
+  margin-left: 45px;
+  background-color: rgb(205, 63, 63);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+.deleteButton:hover {
+  background-color: rgb(150, 31, 31);
+}

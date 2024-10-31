@@ -1,0 +1,39 @@
+#name {
+  padding: 10px;
+  margin: 10px;
+}
+
+#description {
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+#interests {
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+#linkedin {
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+#twitter {
+  padding: 10px;
+  margin: 10px 10px 0px 10px;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: #45a049;
+}
